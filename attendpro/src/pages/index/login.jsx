@@ -9,16 +9,16 @@ export default function Login() {
                 <div className="login">
                     <div id='logo'>
                         <img
-                            src="\src\assets\logo.png" alt="Company Logo" height="50" />
+                            src={logo} height="50" />
                     </div>
                     <h1>Attend Pro</h1>
-                    <div className="login-form">
+                    <div className="form">
                         <form action="" className="login-form">
                             <label htmlFor="username" className="username">Username</label>
-                            <input type="text" className="username" placeholder='admin123' />
+                            <input type="text" id="username" placeholder='admin123' />
 
                             <label htmlFor="password" className="password">Password</label>
-                            <input type="password" className="password" placeholder='********' />
+                            <input type="password" id="password" placeholder='********' />
                         </form>
 
                         <button className="login-btn">
