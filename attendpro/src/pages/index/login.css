@@ -1,0 +1,16 @@
+.index-body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.login {
+    width: 30%;
+    height: auto;
+    background-color: #9B1313;
+}
+
